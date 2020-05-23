@@ -20,7 +20,7 @@ yarn add 'measure-box-react'
 
 Just wrap your component with **\<MeasureBox\>** component:
 
-```react
+```js
 import MeasureBox from 'measure-box-react'
 
 <MeasureBox>

@@ -1,9 +1,10 @@
 # react-measure-box
 
-Test the responsive behavior of your react components
+Test the responsive behavior of your react components.
 
 This component was created for use with the storybook. It provides a convenient way to test the responsive behavior of your components.
 
+![](react-measure-box.gif)
 ## Installation
 
 ```bash
@@ -14,7 +15,7 @@ yarn add 'measure-box-react'
 
 ## Basic usage
 
-Just wrap your component with **MeasureBox** component:
+Just wrap your component with **\<MeasureBox\>** component:
 
 ```react
 import MeasureBox from 'measure-box-react'

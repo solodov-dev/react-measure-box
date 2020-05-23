@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Measure your react components in real time",
   "main": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
@@ -14,7 +16,14 @@
     "url": "git+https://github.com/solodov-dev/react-measure-box.git"
   },
   "keywords": [
-    "react"
+    "react",
+    "react-measure",
+    "typescript",
+    "size",
+    "component",
+    "measure",
+    "dimensions",
+    "storybook"
   ],
   "author": "Andrey Solodov",
   "license": "ISC",

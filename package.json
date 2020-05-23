@@ -1,0 +1,45 @@
+{
+  "name": "react-measure-box",
+  "version": "1.0.0",
+  "description": "Measure your react components in real time",
+  "main": "dist/index.js",
+  "files": ["dist"],
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solodov-dev/react-measure-box.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Andrey Solodov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solodov-dev/react-measure-box/issues"
+  },
+  "homepage": "https://github.com/solodov-dev/react-measure-box#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.10.8",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "@types/react-measure": "^2.0.6",
+    "react-measure": "^2.3.0"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

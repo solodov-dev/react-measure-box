@@ -36,10 +36,10 @@ The ways you want to resize your box. If not given the box will not be resizable
 Color of the box border. Orange by default.
 
 #### height?: string;
-Height of the box. 150 pixels by default.
+Optional height of the box.
 
 #### width?: string;
-Width of the box. 200 pixels by default.
+Optional width of the box.
 
 #### className?: string
 Optional styles class for the component.

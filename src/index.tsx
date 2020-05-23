@@ -26,8 +26,8 @@ export default function MeasureBox(props: MeasureBoxProps) {
               overflow: 'auto',
               border: '2px solid',
               borderColor: props.color || 'darkorange',
-              width: props.width || '200px',
-              height: props.height || '150px',
+              width: props.width,
+              height: props.height,
               position: 'relative',
               zIndex: 1000,
             }}

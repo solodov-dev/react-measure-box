@@ -1,6 +1,6 @@
 {
   "name": "react-measure-box",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Measure your react components in real time",
   "main": "dist/index.js",
   "files": [
